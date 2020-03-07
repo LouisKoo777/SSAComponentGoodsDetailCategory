@@ -1,0 +1,2 @@
+# SSAComponentGoodsDetailCategory
+SSA 商品详情组件业务对接工程
