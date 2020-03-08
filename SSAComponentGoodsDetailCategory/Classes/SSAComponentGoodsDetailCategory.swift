@@ -15,7 +15,7 @@ public extension CTMediator {
             "goodsName":goodsName,
             kCTMediatorParamsKeySwiftTargetModuleName:"SSAComponentGoodsDetail"
             ] as [AnyHashable : Any]
-        if let viewController = self.performTarget("Target_goodsDetail", action: "Extension_ViewController", params: params, shouldCacheTarget: false) as? UIViewController {
+        if let viewController = self.performTarget("goodsDetail", action: "Extension_ViewController", params: params, shouldCacheTarget: false) as? UIViewController {
             return viewController
         }
         return nil
@@ -26,7 +26,7 @@ public extension CTMediator {
         let callbackBlockObject = unsafeBitCast(callbackBlock, to: AnyObject.self)
         let params = ["callback":callbackBlockObject, "goodsId":goodsId,
                    "goodsName":goodsName] as [AnyHashable:Any]
-        if let viewController = self.performTarget("Target_goodsDetail", action: "Extension_ViewController", params: params, shouldCacheTarget: false) as? UIViewController {
+        if let viewController = self.performTarget("goodsDetail", action: "Extension_ViewController", params: params, shouldCacheTarget: false) as? UIViewController {
             return viewController
         }
         return nil
