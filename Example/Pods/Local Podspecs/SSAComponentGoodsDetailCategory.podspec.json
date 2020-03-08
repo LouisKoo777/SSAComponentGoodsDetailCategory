@@ -1,0 +1,27 @@
+{
+  "name": "SSAComponentGoodsDetailCategory",
+  "version": "0.1.0",
+  "summary": "A short description of SSAComponentGoodsDetailCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LouisKoo777/SSAComponentGoodsDetailCategory.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "junbing.gu@soprasteria.com": "junbing.gu@soprasteria.com"
+  },
+  "source": {
+    "git": "https://github.com/LouisKoo777/SSAComponentGoodsDetailCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSAComponentGoodsDetailCategory/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

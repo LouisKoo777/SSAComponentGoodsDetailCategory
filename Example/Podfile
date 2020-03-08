@@ -1,0 +1,13 @@
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'SSAComponentGoodsDetailCategory_Example' do
+  pod 'SSAComponentGoodsDetailCategory', :path => '../'
+
+  target 'SSAComponentGoodsDetailCategory_Tests' do
+    inherit! :search_paths
+
+    pod 'CTMediator'
+  end
+end

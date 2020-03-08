@@ -1,0 +1,24 @@
+PODS:
+  - CTMediator (25)
+  - SSAComponentGoodsDetailCategory (0.1.0):
+    - CTMediator
+
+DEPENDENCIES:
+  - CTMediator
+  - SSAComponentGoodsDetailCategory (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  SSAComponentGoodsDetailCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  SSAComponentGoodsDetailCategory: 52921a4a14680d509fe89ab46d93bf94e5f41fa5
+
+PODFILE CHECKSUM: 639b434219e3526b826b21e20eec5337c65f7594
+
+COCOAPODS: 1.9.0
