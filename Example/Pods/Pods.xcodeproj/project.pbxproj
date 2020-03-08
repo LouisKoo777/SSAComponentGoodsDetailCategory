@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		08691088BB12CD4FE499AB4B5AA99FDA /* SSAComponentGoodsDetailCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6F874F5ABBC6FC6F02D19AF9F86F43 /* SSAComponentGoodsDetailCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CFFBFD9086F3947AD133FFF328438B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
-		2859F4F5EBAA87E38C87822A046BFC19 /* SSAComponentGoodsDetailCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8BF67F4F4C8444841E0E8EAAF0C316 /* SSAComponentGoodsDetailCategory.swift */; };
+		142B83392414E7730048F73A /* SSAComponentGoodsDetailCategory_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142B83382414E7730048F73A /* SSAComponentGoodsDetailCategory_Extension.swift */; };
 		2DBC7067832FE20DC365A8A48DD2E150 /* SSAComponentGoodsDetailCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51482A4C1ABA02C99B23DE1738C20BF3 /* SSAComponentGoodsDetailCategory-dummy.m */; };
 		3C143850B2935E66778690E3C6C929A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
 		3FA2A3030B5BF153F6AEC33D3D78B1AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */; };
@@ -68,32 +68,33 @@
 		0EC36E0206CD65767221E0B50D19BD67 /* Pods-SSAComponentGoodsDetailCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSAComponentGoodsDetailCategory_Tests-dummy.m"; sourceTree = "<group>"; };
 		11A4FDD4A7AAA6AD3A2A5B879CC387F8 /* SSAComponentGoodsDetailCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSAComponentGoodsDetailCategory.release.xcconfig; sourceTree = "<group>"; };
 		140647786207E44CD2C28F788A84F910 /* Pods-SSAComponentGoodsDetailCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSAComponentGoodsDetailCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		179AA97CD467EAD321322B26153E3477 /* Pods_SSAComponentGoodsDetailCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSAComponentGoodsDetailCategory_Example.framework; path = "Pods-SSAComponentGoodsDetailCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		142B83382414E7730048F73A /* SSAComponentGoodsDetailCategory_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SSAComponentGoodsDetailCategory_Extension.swift; path = SSAComponentGoodsDetailCategory/Classes/SSAComponentGoodsDetailCategory_Extension.swift; sourceTree = "<group>"; };
+		179AA97CD467EAD321322B26153E3477 /* Pods_SSAComponentGoodsDetailCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSAComponentGoodsDetailCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE7B789C34B6D2514785C558B047C45 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
 		2DF55E1293B6B96C36EDF19DDAAAFFC5 /* Pods-SSAComponentGoodsDetailCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSAComponentGoodsDetailCategory_Example-Info.plist"; sourceTree = "<group>"; };
 		3737532EEA823B7364EFB1FAB1E041C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3798657CD4C17B89A79C8296173ECF19 /* Pods-SSAComponentGoodsDetailCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SSAComponentGoodsDetailCategory_Example-dummy.m"; sourceTree = "<group>"; };
-		3A4B960B0069EDC6DD8D14CE1A103326 /* Pods_SSAComponentGoodsDetailCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SSAComponentGoodsDetailCategory_Tests.framework; path = "Pods-SSAComponentGoodsDetailCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A4B960B0069EDC6DD8D14CE1A103326 /* Pods_SSAComponentGoodsDetailCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSAComponentGoodsDetailCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6F874F5ABBC6FC6F02D19AF9F86F43 /* SSAComponentGoodsDetailCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSAComponentGoodsDetailCategory-umbrella.h"; sourceTree = "<group>"; };
 		3EFA947ED02806C720DF17A8A2B32746 /* Pods-SSAComponentGoodsDetailCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSAComponentGoodsDetailCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
 		47FAB122B299A696C50A1C1B018FABEC /* Pods-SSAComponentGoodsDetailCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSAComponentGoodsDetailCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		49EF8DDC94A67E12304A38E9BB2F96C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		49EF8DDC94A67E12304A38E9BB2F96C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4A995337A366B8B3DE521613D21A2793 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
 		51461991C2DBB9DC11DB3DFB106CF339 /* SSAComponentGoodsDetailCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSAComponentGoodsDetailCategory-Info.plist"; sourceTree = "<group>"; };
 		51482A4C1ABA02C99B23DE1738C20BF3 /* SSAComponentGoodsDetailCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSAComponentGoodsDetailCategory-dummy.m"; sourceTree = "<group>"; };
 		51E574C9727DCD4BFCF9217AD2F72525 /* Pods-SSAComponentGoodsDetailCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SSAComponentGoodsDetailCategory_Tests.modulemap"; sourceTree = "<group>"; };
-		5413B1E7CE40BFC02BCA4B1AD34B7C28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5413B1E7CE40BFC02BCA4B1AD34B7C28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		545740939E9E62D8A7FC6FDF60D4A372 /* Pods-SSAComponentGoodsDetailCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSAComponentGoodsDetailCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5545E2C46DF4F243862DFE65063FE072 /* Pods-SSAComponentGoodsDetailCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSAComponentGoodsDetailCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		56841D2870479C650AD30188DDC40EE8 /* Pods-SSAComponentGoodsDetailCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSAComponentGoodsDetailCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61D5F1891A5773D541887576AA26AE4B /* CTMediator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.debug.xcconfig; sourceTree = "<group>"; };
 		6323F1C830F44E7F2BB54C114F81AFE6 /* Pods-SSAComponentGoodsDetailCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSAComponentGoodsDetailCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E35B689986A9ADD3F7C3882E68B22CC /* Pods-SSAComponentGoodsDetailCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSAComponentGoodsDetailCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7B283A28353B4890383C81C43C6AB42A /* CTMediator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.release.xcconfig; sourceTree = "<group>"; };
 		8EFE988C4ED3DFF5BA2AE7DB55543CB4 /* SSAComponentGoodsDetailCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSAComponentGoodsDetailCategory.debug.xcconfig; sourceTree = "<group>"; };
 		998031B57048CBE9065C777FD070665F /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2971477F67D952A74C12FCA6F781977 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
 		A90C8F2FCAF488468C105DEF7E7A113F /* Pods-SSAComponentGoodsDetailCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSAComponentGoodsDetailCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD6383B275087F8988D11EB40F244ED3 /* Pods-SSAComponentGoodsDetailCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SSAComponentGoodsDetailCategory_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -103,13 +104,12 @@
 		B846401D3B85E72D1CE2F220816AD688 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72BBA30EAB7D32C224AAB0F48FFCE4 /* Pods-SSAComponentGoodsDetailCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SSAComponentGoodsDetailCategory_Tests-Info.plist"; sourceTree = "<group>"; };
 		BB6E3A134EBA48FB057F1728105ABB1A /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
-		D04F6203B4AB75341C5FBB62E0192840 /* SSAComponentGoodsDetailCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSAComponentGoodsDetailCategory.framework; path = SSAComponentGoodsDetailCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D1BE699DDFD6EA7832647299C16700 /* SSAComponentGoodsDetailCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SSAComponentGoodsDetailCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D04F6203B4AB75341C5FBB62E0192840 /* SSAComponentGoodsDetailCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSAComponentGoodsDetailCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D1BE699DDFD6EA7832647299C16700 /* SSAComponentGoodsDetailCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SSAComponentGoodsDetailCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7C0B0108F8FE56E5F5EFB7DF3332784 /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
 		EACA4B91A2824BEE8E9B80DC25B2BA5A /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
 		EAD4C00288EC2D5CACCC7966ADA86F36 /* Pods-SSAComponentGoodsDetailCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SSAComponentGoodsDetailCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EAD7C025E1FCD81D5506233B49A2E923 /* Pods-SSAComponentGoodsDetailCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSAComponentGoodsDetailCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EF8BF67F4F4C8444841E0E8EAAF0C316 /* SSAComponentGoodsDetailCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSAComponentGoodsDetailCategory.swift; path = SSAComponentGoodsDetailCategory/Classes/SSAComponentGoodsDetailCategory.swift; sourceTree = "<group>"; };
 		FB2135135B76DA70672C2B3381645BB6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -215,9 +215,9 @@
 		5C4E34B6729C988FF468F52B82728648 /* SSAComponentGoodsDetailCategory */ = {
 			isa = PBXGroup;
 			children = (
-				EF8BF67F4F4C8444841E0E8EAAF0C316 /* SSAComponentGoodsDetailCategory.swift */,
 				07D9BAA1E94C5F7C647A5A64F51217D7 /* Pod */,
 				F361F0EEBC44606112376EE3CF815411 /* Support Files */,
+				142B83382414E7730048F73A /* SSAComponentGoodsDetailCategory_Extension.swift */,
 			);
 			name = SSAComponentGoodsDetailCategory;
 			path = ../..;
@@ -309,7 +309,6 @@
 				BB6E3A134EBA48FB057F1728105ABB1A /* CTMediator.m */,
 				74991EA7216E58FD106E0F1217671009 /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -437,6 +436,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					EF1FFEB7F7020DFE834B396713EA8C21 = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -505,7 +509,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DBC7067832FE20DC365A8A48DD2E150 /* SSAComponentGoodsDetailCategory-dummy.m in Sources */,
-				2859F4F5EBAA87E38C87822A046BFC19 /* SSAComponentGoodsDetailCategory.swift in Sources */,
+				142B83392414E7730048F73A /* SSAComponentGoodsDetailCategory_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 11A4FDD4A7AAA6AD3A2A5B879CC387F8 /* SSAComponentGoodsDetailCategory.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -743,8 +748,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -788,6 +792,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EFE988C4ED3DFF5BA2AE7DB55543CB4 /* SSAComponentGoodsDetailCategory.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -808,6 +813,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
